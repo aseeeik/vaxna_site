@@ -46,5 +46,53 @@
 ```Veškeré tyto akce provedeme i na druhém routeru, ovšem serial se změní na 10.10.10.2 a g0/0 na 173.11.33.1```
 
 ```V této fázi máme červený sektor částečně hotový```
-**`- pakliže je toto tvrzení opravdu pravdIvé zjistíme tak, že šipečky směrem ke switchi svítí zeleně`**
+**`
+- pakliže je toto tvrzení opravdu pravdIvé zjistíme tak, že šipečky směrem ke switchi svítí zeleně`**
 
+# Konfigurace **ZELENÉHO** a **FIALOVÉHO SEKTORU** našeho schéma
+
+> **ZELENÝ SEKTOR**
+> - otevřeme počítač, otevřeme záložku **Desktop** a následně ***"!P Configuration"***, poté přiřadíme potřebné informace pomocí obrázku níže (obr. č. 5)
+
+![č. 5](https://cdn.discordapp.com/attachments/893822214854574090/893832306459021392/unknown.png)
+
+> - Poté otevřeme Switch a dostaneme se do configurace terminálu (pomocí **en** a následně** conf t**, ověříme pomocí viditelného **Switch(config)#** na začátku řádku) a nastavíme **defaultní gateway** naší sítě (V našem případě) **IP adresa portu G0/0 na routeru R1** pomocí **ip default-gateway 143.93.15.1**
+
+``` V této fázi máme zelený sektor hotový a nyní ho budeme využívat na zkoušení spojení s R1, R2 a finálním PC ve fialovém sektoru```
+
+# Fialový sektor
+
+- otevřeme počítač, otevřeme záložku **Desktop** a následně ***"IP Configuration"***, poté přiřadíme potřebné informace pomocí obrázku níže (obr. č. 6)
+
+![č. 6](https://cdn.discordapp.com/attachments/893822214854574090/893833668026568714/unknown.png)
+
+> - Poté otevřeme Switch a dostaneme se do configurace terminálu (pomocí **en** a následně** conf t**, ověříme pomocí viditelného **Switch(config)#** na začátku řádku) a nastavíme **defaultní gateway** naší sítě (V našem případě) **IP adresa portu G0/0 na routeru R2** pomocí **ip default-gateway 173.11.33.1**
+
+``` V této fázi máme fialový sektor hotový a nyní ho budeme využívat na zkoušení spojení s R1, R2 a finálním PC v zeleném sektoru```
+
+# Routing
+
+- tento krok je ve finále nejlehčí, budeme potřebovat napsat pouze dva příkazy ke každému routeru
+
+> **SPOLEČNÝ PŘIKAZ PRO OBA ROUTERY **
+``` ip route 0.0.0.0 0.0.0.0 s0/3/0```
+
+> **Pro router R1 využijeme příkazy**
+```
+ip route 0.0.0.0 0.0.0.0 s0/3/0
+ip route 173.11.33.0 255.255.255.240 s0/3/0
+```
+
+> **Pro router R2 využijeme příkazy**
+```
+ip route 0.0.0.0 0.0.0.0 s0/3/0
+ip route 143.93.15.0 255.255.255.240 s0/3/0
+```
+
+# Finále
+
+> - v této fázi máme kompletně vyhráno, pakliže nám funguje spojení, vše ověříme pomocí **CMD terminálu** na každém PC
+> - budeme pingovat adresy **10.10.10.1 & 10.10.10.2 & 143.93.15.8 & 173.11.33.12**
+> - pakliže se nám vše vrátí v této podobě *(viz. obr. č. 7)* , máme úspěšně hotovo
+
+![č.7](https://cdn.discordapp.com/attachments/893822214854574090/893835823336812544/unknown.png)
