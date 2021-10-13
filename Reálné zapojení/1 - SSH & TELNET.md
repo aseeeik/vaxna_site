@@ -6,6 +6,13 @@
 
 ![Obrázek spolu zapojení switchů](images/spojeni_switchu.jpg)
 
+- Zapojíme kabel z boxu, na kterém jsou čísla zdířek u stolů do konzolového portu v ragu.
+
+![Jak poznat zdířku consolového portu pro switch / router?](images/kde_najdu_con_port.jpg)
+
+- Vememe kabel a natáhem z dířky kabel do switche pro spojení PC se Switchem (libovolný port ve vybraném switchi)
+
+## Pakliže tohle máme splněno, pokročíme na další část a to základní konfiguraci.
 
 # Základní konfigurace
 
@@ -43,3 +50,13 @@
 > service password-encryption
 ```
 
+- Konfigurace IP adres na PC
+
+```> Klepneme na ikonu v dolním panelu a otevřeme další nastavení sítě, dáme možnost upřesnit nastavení sítě, vybereme REALTEK síťový adaptér a konfigurujeme IPv4 protokol 
+```
+
+- Ověřování
+
+```> Ověříme funkčnost Telnetu a SSH pomocí aplikace PuTTy, vybere možnost SSH nebo Telnet a vložíme IP adresu daného switche na kterém je nakonfigurovaný požadovaný protokol
+> Následně zadáme heslo připadně i uživatelské jméno, pakliže vše funguje, máme všechno nastaveno správně.
+```
