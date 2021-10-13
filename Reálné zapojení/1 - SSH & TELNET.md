@@ -1,11 +1,35 @@
 # Základní konfigurace
 
-Konfigurace Vlan
+- Konfigurace Vlan
 
+```>en
+>conf t
+>int vlan1
+>ip address IP MASKA
+> no shutdown
 ```
-Switch> en
-Switch# conf t
-Switch(config)# int vlan1
-Switch(config)# ip address IP MASKA
-Switch(config)# no shutdown
+
+- Konfigurace telnetu
+
+```> hostname <JMENO>
+> line vty 0 5
+> password <HESLO>
+> login
+```
+
+- Konfigurace SSH
+
+```> hostname <jmeno>
+> conf t
+> ip domain-name cisco
+> username cisco password cisco
+> crypto key generate rsa
+> 1024
+> ip ssh ver 2
+> line vty 0 5
+> transport input ssh
+> login local
+> login synchronous
+> exit
+> service password-encryption
 ```
