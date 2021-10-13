@@ -74,7 +74,8 @@
 
 - tento krok je ve finále nejlehčí, budeme potřebovat napsat pouze dva příkazy ke každému routeru
 
-> **SPOLEČNÝ PŘIKAZ PRO OBA ROUTERY **
+**SPOLEČNÝ PŘIKAZ PRO OBA ROUTERY **
+
 ``` ip route 0.0.0.0 0.0.0.0 s0/3/0```
 
 > **Pro router R1 využijeme příkazy**
