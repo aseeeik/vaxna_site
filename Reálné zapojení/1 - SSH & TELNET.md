@@ -52,12 +52,11 @@
 
 - Konfigurace IP adres na PC
 
-```
 > Klepneme na ikonu v dolním panelu a otevřeme další nastavení sítě, dáme možnost upřesnit nastavení sítě, vybereme REALTEK síťový adaptér a konfigurujeme IPv4 protokol 
-```
+
 
 - Ověřování
 
-```> Ověříme funkčnost Telnetu a SSH pomocí aplikace PuTTy, vybere možnost SSH nebo Telnet a vložíme IP adresu daného switche na kterém je nakonfigurovaný požadovaný protokol
+> Ověříme funkčnost Telnetu a SSH pomocí aplikace PuTTy, vybere možnost SSH nebo Telnet a vložíme IP adresu daného switche na kterém je nakonfigurovaný požadovaný protokol
 > Následně zadáme heslo připadně i uživatelské jméno, pakliže vše funguje, máme všechno nastaveno správně.
-```
+
