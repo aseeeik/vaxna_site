@@ -2,8 +2,10 @@
 
 Konfigurace Vlan
 
->en
->conf t
->int vlan1
->ip address IP MASKA
->no shutdown
+```
+Switch> en
+Switch# conf t
+Switch(config)# int vlan1
+Switch(config)# ip address IP MASKA
+Switch(config)# no shutdown
+```
