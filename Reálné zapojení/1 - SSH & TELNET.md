@@ -25,7 +25,7 @@
 > no shutdown
 ```
 
-- Konfigurace telnetu
+- Konfigurace Telnetu
 
 ```> hostname <JMENO>
 > line vty 0 5
@@ -52,7 +52,8 @@
 
 - Konfigurace IP adres na PC
 
-```> Klepneme na ikonu v dolním panelu a otevřeme další nastavení sítě, dáme možnost upřesnit nastavení sítě, vybereme REALTEK síťový adaptér a konfigurujeme IPv4 protokol 
+```
+> Klepneme na ikonu v dolním panelu a otevřeme další nastavení sítě, dáme možnost upřesnit nastavení sítě, vybereme REALTEK síťový adaptér a konfigurujeme IPv4 protokol 
 ```
 
 - Ověřování
