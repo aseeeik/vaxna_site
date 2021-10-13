@@ -14,4 +14,4 @@
 
 - Některé úkoly jsou již vypracovány na **Discordu** a to konkrétněji v sekci #🔌｜site.
 
-- Veškeré dotazy směřujte na FB skupinu pro sítě.
+- Veškeré dotazy směřujte na FB skupinu pro sítě. 
