@@ -1,11 +1,20 @@
+# Předkonfigurační postupy
+
+- Zapojení consolového kabelu do počítače a switche 
+- Zapojení síťového kabelu z počítače do switche
+- Spojení dvou switchů pomocí síťového kabelu (viz. obrázek)
+
+![Obrázek spolu zapojení switchů](./images/spojeni_switchu)
+
+
 # Základní konfigurace
 
 - Konfigurace Vlan
 
-```>en
->conf t
->int vlan1
->ip address IP MASKA
+```> en
+> conf t
+> int vlan1
+> ip address IP MASKA
 > no shutdown
 ```
 
@@ -33,3 +42,4 @@
 > exit
 > service password-encryption
 ```
+
