@@ -4,7 +4,7 @@
 - Zapojení síťového kabelu z počítače do switche
 - Spojení dvou switchů pomocí síťového kabelu (viz. obrázek)
 
-![Obrázek spolu zapojení switchů](./images/spojeni_switchu)
+![Obrázek spolu zapojení switchů](images/spojeni_switchu.jpg)
 
 
 # Základní konfigurace
