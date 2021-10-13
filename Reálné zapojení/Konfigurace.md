@@ -1,1 +1,0 @@
-# Základní konfigurace
