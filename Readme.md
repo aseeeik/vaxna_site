@@ -10,6 +10,13 @@
 
 - [X] RZ - Úkol ze dne 13.10.2021 - Telnet a SSH 
 - [X] PZ & RZ -  Příprava na cvičení v PKT skrze routing a 3 sítě 
+- [X] ZI - Konfigrace Interfacu
+- [X] ZI - Nastavení hesla do konzole
+- [X] ZI - Zabezpečení síť. zařízení heslem
+- [X] ZI - Nastavení baneru
+- [X] ZI - Konfigurace protokolu SSH
+- [X] ZI - Konfigurace protokolu Telnet
+- [X] ZI - Routing
 - [ ] Ostatní cvičení - ?
 
 # Doplňující informace
