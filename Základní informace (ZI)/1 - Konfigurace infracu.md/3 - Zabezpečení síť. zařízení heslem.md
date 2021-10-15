@@ -9,6 +9,6 @@
 > conf t
 > enable secret <HESLO>    \    
                             |---- Bezpečnější varianta možnost secret
-> enable password <CISCO>  /
+> enable password <HESLO>  /
 > exit
 ```
