@@ -4,13 +4,13 @@
 
 - Složka *packetové zapojení (zkatka PZ)* obsahuje většinu úkolů a postupů při plnění úkolů z Cisco PKT.
 
-- Složka *základní informace (zkatka ZI)* obsahuje konfiguraci pouze častí v ní vypsaných, nejedná se o kompletní konfiguraci, proto je potřeba někdy spojit více "dokumentací" do sebe pro finální výsledek
+- Složka *základní informace (zkatka ZI)* obsahuje konfiguraci pouze časti v ní vypsaných, nejedná se o kompletní konfiguraci, proto je potřeba někdy spojit více "dokumentací" do sebe pro finální výsledek
 
 # Seznam hotových věcí
 
 - [X] RZ - Úkol ze dne 13.10.2021 - Telnet a SSH 
 - [X] PZ & RZ -  Příprava na cvičení v PKT skrze routing a 3 sítě 
-- [X] ZI - Konfigrace Interfacu
+- [X] ZI - Konfigurace Interfacu
 - [X] ZI - Nastavení hesla do konzole
 - [X] ZI - Zabezpečení síť. zařízení heslem
 - [X] ZI - Nastavení baneru
