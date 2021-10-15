@@ -4,6 +4,8 @@
 
 - Složka *packetové zapojení (zkatka PZ)* obsahuje většinu úkolů a postupů při plnění úkolů z Cisco PKT.
 
+- Složka *základní informace (zkatka ZI)* obsahuje konfiguraci pouze častí v ní vypsaných, nejedná se o kompletní konfiguraci, proto je potřeba někdy spojit více "dokumentací" do sebe pro finální výsledek
+
 # Seznam hotových věcí
 
 - [X] Úkol ze dne 13.10.2021 - Telnet a SSH (RZ)
