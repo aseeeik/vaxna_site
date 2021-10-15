@@ -8,8 +8,8 @@
 
 # Seznam hotových věcí
 
-- [X] Úkol ze dne 13.10.2021 - Telnet a SSH (RZ)
-- [X] Příprava na cvičení v PKT skrze routing a 3 sítě (PZ a RZ)
+- [X] RZ - Úkol ze dne 13.10.2021 - Telnet a SSH 
+- [X] PZ & RZ -  Příprava na cvičení v PKT skrze routing a 3 sítě 
 - [ ] Ostatní cvičení - ?
 
 # Doplňující informace
