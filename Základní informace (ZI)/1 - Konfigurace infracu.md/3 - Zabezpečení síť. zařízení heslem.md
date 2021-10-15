@@ -4,10 +4,11 @@
 
 - budeme postupovat následovně :
 
-```> en
+```
+> en
 > conf t
 > enable secret <HESLO>    \    
-                            |---- Bezpečnější varianta možnost **secret** 
+                            |---- Bezpečnější varianta možnost secret
 > enable password <CISCO>  /
 > exit
 ```

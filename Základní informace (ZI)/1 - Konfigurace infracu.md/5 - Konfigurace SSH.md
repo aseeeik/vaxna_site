@@ -5,7 +5,8 @@
 - budeme postupovat následovně :
 
 #### Prvně nakonfigurujeme Vlan1
-```> en
+```
+> en
 > conf t
 > int vlan1
 > ip address 192.168.0.50 255.255.255.0
@@ -15,7 +16,8 @@
 
 #### Poté se přesuneme na konfiguraci protokolu SSH
 
-```> en
+```
+> en
 > hostname <JMENO>
 > ip domain-name CISCO
 > username <JMENO> password <HESLO>

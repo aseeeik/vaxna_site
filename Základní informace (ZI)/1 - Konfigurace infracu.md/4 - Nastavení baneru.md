@@ -5,8 +5,10 @@
 - budeme postupovat následovně :
 
 
-_*Znak (v našem případě 7 se bere jako ignorovaný a jako začátek a konec textu, je doporučeno využít znak / písmeno / číslici, která nebude v textu využita)*_
-```> en
+> _*Znak (v našem případě 7 se bere jako ignorovaný a jako začátek a konec textu, je doporučeno využít znak / písmeno / číslici, která nebude v textu využita)*_
+
+```
+> en
 > conf t
 > banner motd 7 TEXT 7
 > exit
@@ -14,7 +16,8 @@ _*Znak (v našem případě 7 se bere jako ignorovaný a jako začátek a konec 
 
 - nebo
 
-```> en
+```
+> en
 > conf t
 > banner motd 7
 > TEXT

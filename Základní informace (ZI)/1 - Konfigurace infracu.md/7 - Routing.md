@@ -4,12 +4,14 @@
 
 ## Příkladový formát
 
-```> ip route <CILOVA ADRESA> <MASKA> <NEXT_HOP>
+```
+> ip route <CILOVA ADRESA> <MASKA> <NEXT_HOP>
 ```
 
 ## Pro routing mezi připojenými switchmi k sobě použijeme
 
-```> ip route 0.0.0.0 0.0.0.0 s0/3/0 (= int. pro příklad, interface připojený a vedený k danému routeru / routerům)
+```
+> ip route 0.0.0.0 0.0.0.0 s0/3/0 (= int. pro příklad, interface připojený a vedený k danému routeru / routerům)
 ```
 
 ## Příkladový formát 3 sítí
@@ -31,7 +33,9 @@
 
 - dopíšeme pouze jeden příkaz
 
-```> ip route 30.30.30.0 255.255.255.0 s0/3/0```
+```
+> ip route 30.30.30.0 255.255.255.0 s0/3/0
+```
 
 - ve finále celý postup vypadá takto : 
 

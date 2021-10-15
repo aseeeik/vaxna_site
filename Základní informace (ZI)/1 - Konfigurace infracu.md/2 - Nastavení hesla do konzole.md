@@ -4,7 +4,8 @@
 
 - budeme postupovat následovně
 
-```> en
+```
+> en
 > conf t
 > line con 0
 > password <HESLO>
