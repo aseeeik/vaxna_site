@@ -17,6 +17,9 @@
 - [X] ZI - Konfigurace protokolu SSH
 - [X] ZI - Konfigurace protokolu Telnet
 - [X] ZI - Routing
+- [X] PZ - 1.5.10 - CCNA2
+- [X] PZ - 1.6.1 - CCNA2
+- [X] PZ - 1.6.2 - CCNA2
 - [ ] Ostatní cvičení - ?
 
 # Doplňující informace
